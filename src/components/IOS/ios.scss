@@ -1,0 +1,77 @@
+.ios {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5rem;
+  color: #385888;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+
+  &__header {
+    background: linear-gradient(
+      115.06deg,
+      rgba(255, 255, 255, 0.36) 0%,
+      rgba(255, 255, 255, 0.06) 100%
+    );
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+    width: 798px;
+    height: 112px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-size: 48px;
+      line-height: 56px;
+    }
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  ul {
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  li {
+    margin: 20px;
+  }
+
+  p {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  button {
+    width: 300px;
+    height: 60px;
+    background: linear-gradient(
+      115.06deg,
+      rgba(255, 255, 255, 0.36) 0%,
+      rgba(255, 255, 255, 0.06) 100%
+    );
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    font-size: 24px;
+    border: none;
+    color: #385888;
+    cursor: pointer;
+  }
+}

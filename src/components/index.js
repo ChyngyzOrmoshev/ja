@@ -1,0 +1,14 @@
+export { default as Logo } from "../assets/img/logo.jpg";
+export { default as TopBar } from "../components/TopBar/TopBar";
+export { default as telegram } from "../assets/img/telegram.png";
+export { default as whatsapp } from "../assets/img/whatsapp.png";
+export { default as WebDev } from "../components/WebDev/WebDev";
+export { default as Ios } from "../components/IOS/Ios";
+export { default as macos } from "../assets/img/icons-mac.svg";
+export { default as Free } from "../components/Free/Free";
+export { default as img1 } from "../assets/img/images1.jpg";
+export { default as img2 } from "../assets/img/images2.jpg";
+export { default as Works } from "../components/Works/Works";
+export { default as About } from "../components/About/About";
+export { default as stars } from "../assets/img/Star.png";
+export { default as TimurMon } from "../assets/img/TimurMon.jpg";

@@ -1,0 +1,52 @@
+.free {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5rem;
+  color: #385888;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+
+  a {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-decoration: none;
+    color: #385888;
+  }
+
+  a:hover {
+    color: #000;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 47px;
+    text-align: center;
+  }
+
+  &__footer {
+    width: 798px;
+    height: 112px;
+    background: linear-gradient(
+      115.06deg,
+      rgba(255, 255, 255, 0.36) 0%,
+      rgba(255, 255, 255, 0.06) 100%
+    );
+    backdrop-filter: blur(100px);
+    border-radius: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+}
